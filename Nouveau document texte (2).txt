@@ -1,0 +1,29 @@
+algo ex18
+Algorithme prix-totale
+Variables
+PHT , PTTC: réela
+categorie: caractère
+
+Début
+
+Ecrire ("Veuillez saisir le prix hors taxe de produit: ")
+
+Lire (PHT)
+
+Ecrire ("Veuillez saisir la catégorie de produit: ")
+
+Lire (categorie)
+
+cas categorie vaut
+
+"A": Ecrire ("Le prix TTC de produit est : ", PHT + PHT * 0.07)
+
+"B": PTTC <-- PHT + PHT 0.20
+
+Ecrire ("Le prix TTC de produit est: ", PTTC)
+
+"C": Ecrire ("Le prix TTC de produit est: ", PHT + PHT * 0.25)
+
+Sinon: Ecrire ("La catégorie n'existe pas")
+fin cas
+Fin
